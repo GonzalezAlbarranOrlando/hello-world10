@@ -1,15 +1,16 @@
 <template>
     <div>
-        <h1>Template in vue js</h1>
+        <h1>Home</h1>
+        <h2>{{ myName}}</h2>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Home",
+    name: 'MyHome',
     data(){
         return {
-            name: 'Orlando'
+            myName: 'My name is Orlando'
         }
     }
 }
